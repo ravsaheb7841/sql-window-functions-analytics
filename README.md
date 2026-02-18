@@ -57,7 +57,6 @@ HR-Analytics-Window-Functions/
 │
 ├── Dataset/
 ├── Day-1/
-│   └── salary_ranking.sql
 └── README.md
 ```
 
