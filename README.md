@@ -55,7 +55,7 @@ Features:
 ```
 HR-Analytics-Window-Functions/
 │
-├── Dataset
+├── Dataset/
 ├── Day-1/
 │   └── salary_ranking.sql
 └── README.md
