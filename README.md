@@ -55,9 +55,7 @@ Features:
 ## 📂 Project Structure
 
 HR-Analytics-Window-Functions/
-│
-├── 1_create_table.sql  
-├── 2_insert_data.sql  
+├── Dataset  
 ├── Day-1/  
 │   └── salary_ranking.sql  
 
