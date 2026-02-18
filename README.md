@@ -64,4 +64,20 @@ Features:
 
 ## 📈 Status
 
-Project Started – Initial Setup Completed
+---
+
+## 🟢 Day 1 – Salary Ranking Analysis
+
+### Window Functions Implemented:
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+
+### Tasks Completed:
+- Ranked employees based on Monthly Salary (highest first)
+- Compared RANK vs DENSE_RANK differences
+- Identified Top 5 highest paid employees
+
+### Key Insight:
+Salary ranking helps identify pay distribution patterns across the organization.
+
