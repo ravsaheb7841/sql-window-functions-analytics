@@ -50,16 +50,17 @@ Features:
 ⬜ LAG()  
 ⬜ NTILE()  
 
----
-
 ## 📂 Project Structure
 
+```
 HR-Analytics-Window-Functions/
-├── Dataset  
-├── Day-1/  
-│   └── salary_ranking.sql  
+│
+├── Dataset
+├── Day-1/
+│   └── salary_ranking.sql
+└── README.md
+```
 
----
 
 ## 🟢 Day 1 – Salary Ranking Analysis
 
