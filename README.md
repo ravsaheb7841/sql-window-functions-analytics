@@ -4,7 +4,7 @@
 This project performs HR data analysis using advanced SQL Window Functions.  
 The dataset contains employee details such as salary, department, country, job rate, leaves, and overtime hours.
 
-The main objective of this project is to practice and implement SQL Window Functions for real-world HR analytics.
+The objective of this project is to apply analytical SQL techniques to solve real-world HR business problems.
 
 ---
 
@@ -32,39 +32,34 @@ Features:
 ---
 
 ## 🛠 Tools Used
-- MySQL (or PostgreSQL)
+- MySQL
 - SQL Window Functions
 - Git & GitHub
 
 ---
 
-## 📚 Topics Covered (Planned)
+## 📚 Topics Covered
 
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- PARTITION BY
-- SUM() OVER()
-- AVG() OVER()
-- LEAD()
-- LAG()
-- NTILE()
+✅ ROW_NUMBER()  
+✅ RANK()  
+✅ DENSE_RANK()  
+⬜ PARTITION BY  
+⬜ SUM() OVER()  
+⬜ AVG() OVER()  
+⬜ LEAD()  
+⬜ LAG()  
+⬜ NTILE()  
 
----
+## 📂 Project Structure
 
-## 🎯 Project Goals
+```
+HR-Analytics-Window-Functions/
+│
+├── Dataset/
+├── Day-1/
+└── README.md
+```
 
-- Perform salary ranking analysis
-- Department-wise analytics
-- Performance comparison
-- Leave and overtime insights
-- Advanced HR analytics using window functions
-
----
-
-## 📈 Status
-
----
 
 ## 🟢 Day 1 – Salary Ranking Analysis
 
@@ -79,5 +74,11 @@ Features:
 - Identified Top 5 highest paid employees
 
 ### Key Insight:
-Salary ranking helps identify pay distribution patterns across the organization.
+Salary ranking helps identify compensation distribution patterns across the organization.
 
+---
+
+## 📈 Project Status
+
+🚀 Day 1 Completed  
+⏳ Day 2 – Department-wise Analysis (PARTITION BY) in progress
