@@ -60,6 +60,8 @@ HR-Analytics-Window-Functions/
 ├── Dataset/
 │   └── Employees.csv
 │
+├── base.sql
+|
 ├── Day-1/
 │   └── 01_load_data.sql
 │
