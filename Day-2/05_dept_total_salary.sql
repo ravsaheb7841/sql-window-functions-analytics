@@ -23,4 +23,5 @@ FROM employees.employees;
 | Muhamad Rinkusi    | Account Management  | 37656         | 1952664   |
 | Eala Mitri         | Account Management  | 34548         | 1952664   |
 | Imran Hazruma      | Account Management  | 17376         | 1952664   |
+
 */
