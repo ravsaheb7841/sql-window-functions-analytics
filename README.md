@@ -47,7 +47,7 @@ Features:
 ✅ SUM() OVER()  
 ✅ AVG() OVER()  
 ✅ NTILE()
-⬜ LEAD()  
+⬜ LEAD()
 ⬜ LAG()  
 
 ---
