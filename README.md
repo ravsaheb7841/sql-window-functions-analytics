@@ -46,9 +46,9 @@ Features:
 ✅ PARTITION BY  
 ✅ SUM() OVER()  
 ✅ AVG() OVER()  
+✅ NTILE()
 ⬜ LEAD()  
 ⬜ LAG()  
-⬜ NTILE()  
 
 ---
 
@@ -67,6 +67,9 @@ HR-Analytics-Window-Functions/
 │
 ├── Day-2/
 │   └── 01_dept_salary_rank.sql
+|
+├── Day-2/
+│    └── 01_jobrate_rank.sql
 │
 └── README.md
 ```
@@ -109,8 +112,26 @@ Department-level analysis helps understand internal pay distribution and salary 
 
 ---
 
+## 🔵 Day 3 – Performance & Advanced Analysis
+
+### Window Functions Implemented:
+- NTILE()
+- AVG() OVER() for performance comparison
+- RANK() based on Job Rate
+
+### Tasks Completed:
+- Ranked employees based on Job Rate
+- Compared employee performance with department average
+- Created performance buckets using NTILE()
+
+### Key Insight:
+Performance distribution analysis helps identify top performers and employees below department average.
+
+---
+
 ## 📈 Project Status
 
 🚀 Day 1 Completed  
 🚀 Day 2 Completed  
-⏳ Day 3 – Performance & Advanced Analytics in progress
+🚀 Day 3 Completed  
+⏳ Day 4 – LEAD & LAG Analysis in progress
