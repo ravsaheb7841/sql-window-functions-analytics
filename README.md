@@ -68,7 +68,7 @@ HR-Analytics-Window-Functions/
 ├── Day-2/
 │   └── 01_dept_salary_rank.sql
 |
-├── Day-2/
+├── Day-3/
 │    └── 01_jobrate_rank.sql
 │
 └── README.md
@@ -117,7 +117,7 @@ Department-level analysis helps understand internal pay distribution and salary 
 ### Window Functions Implemented:
 - NTILE()
 - AVG() OVER() for performance comparison
-- RANK() based on Job Rate
+- DENSE_RANK() based on Job Rate
 
 ### Tasks Completed:
 - Ranked employees based on Job Rate
