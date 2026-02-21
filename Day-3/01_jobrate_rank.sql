@@ -15,6 +15,7 @@ SELECT
         OVER(ORDER BY Job_Rate DESC) AS rank_emp
 FROM employees.employees;
 
+
 /*
 -- Sample Output:
 
