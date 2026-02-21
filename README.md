@@ -46,8 +46,8 @@ Features:
 ✅ PARTITION BY  
 ✅ SUM() OVER()  
 ✅ AVG() OVER()  
-✅ NTILE()
-⬜ LEAD()
+✅ NTILE()  
+⬜ LEAD()  
 ⬜ LAG()  
 
 ---
