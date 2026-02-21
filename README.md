@@ -32,7 +32,7 @@ Features:
 ---
 
 ## 🛠 Tools Used
-- MySQL
+- MySQL 
 - SQL Window Functions
 - Git & GitHub
 
