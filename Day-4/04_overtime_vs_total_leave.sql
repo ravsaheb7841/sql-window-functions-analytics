@@ -1,7 +1,7 @@
 /*
 -- Question:
 Compare Overtime Hours with total leave count 
-(Sick Leaves + Unpaid Leaves) for each employee.
+for each employee.
 */
 
 /*
@@ -11,24 +11,31 @@ SELECT
     Name,
     Department,
     Overtime_Hours,
-    Sick_Leaves + Unpaid_Leaves AS total_leave_count,
+    total_leave_count,
     CASE 
-        WHEN Overtime_Hours > (Sick_Leaves + Unpaid_Leaves)
+        WHEN Overtime_Hours > total_leave_count 
             THEN 'More Overtime'
-        WHEN Overtime_Hours < (Sick_Leaves + Unpaid_Leaves)
+        WHEN Overtime_Hours < total_leave_count 
             THEN 'More Leaves'
         ELSE 'Equal'
     END AS comparison_result
-FROM employees.employees;
+FROM (
+    SELECT 
+        Name,
+        Department,
+        Overtime_Hours,
+        SUM(Sick_Leaves + Unpaid_Leaves) 
+            OVER (PARTITION BY Name) AS total_leave_count
+    FROM employees.employees
+) AS e;
 
 /*
 -- Sample Output:
 
-| Name               | Department           | Overtime_Hours | total_leave_count | comparison_result |
-|--------------------|---------------------|----------------|-------------------|------------------|
-| Ghadir Hmshw       | Quality Control     | 183            | 1                 | More Overtime    |
-| Omar Hishan        | Quality Control     | 198            | 5                 | More Overtime    |
-| Ailya Sharaf       | Major Mfg Projects  | 192            | 3                 | More Overtime    |
-| Lwiy Qbany         | Manufacturing       | 7              | 0                 | More Overtime    |
+| Name               | Department        | Overtime_Hours | total_leave_count | comparison_result|
+|--------------------|-------------------|----------------|-------------------|------------------|
+| Ahmad Bikri        | Manufacturing     | 12             | 5                 | More Overtime    |
+| Rahaf Alaleppoy    | Account Mgmt      | 3              | 6                 | More Leaves      |
+| Amir Alkhatib      | Account Mgmt      | 6              | 6                 | Equal            |
 
 */
