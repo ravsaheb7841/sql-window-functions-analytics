@@ -135,7 +135,7 @@ Performance distribution analysis helps identify top performers and employees be
 ## 🟣 Day 4 – Leave & Productivity Analysis
 
 ### Window Functions Used:
-- RANK()
+- DENSE_RANK()
 - AVG() OVER()
 - SUM() OVER()
 
