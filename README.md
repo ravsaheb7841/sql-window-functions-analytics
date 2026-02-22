@@ -71,6 +71,9 @@ HR-Analytics-Window-Functions/
 ├── Day-3/
 │    └── 01_jobrate_rank.sql
 │
+├── Day-4/
+│    └── 01_rank_sick_leaves.sql
+│
 └── README.md
 ```
 
@@ -126,6 +129,25 @@ Department-level analysis helps understand internal pay distribution and salary 
 
 ### Key Insight:
 Performance distribution analysis helps identify top performers and employees below department average.
+
+---
+
+## 🟣 Day 4 – Leave & Productivity Analysis
+
+### Window Functions Used:
+- RANK()
+- AVG() OVER()
+- SUM() OVER()
+
+### Tasks Completed:
+- Ranked employees based on Sick Leaves
+- Calculated department-wise average Sick Leaves
+- Identified employees taking more leaves than department average
+- Compared overtime hours with total leave count
+- Detected employees with high overtime but low sick leaves
+
+### Key Insight:
+Leave and overtime patterns help evaluate employee workload balance and potential burnout risks.
 
 ---
 
