@@ -156,4 +156,5 @@ Leave and overtime patterns help evaluate employee workload balance and potentia
 🚀 Day 1 Completed  
 🚀 Day 2 Completed  
 🚀 Day 3 Completed  
-⏳ Day 4 – LEAD & LAG Analysis in progress
+🚀 Day 4 Completed  
+⏳ Day 5 – LEAD & LAG Trend Analysis in progress
