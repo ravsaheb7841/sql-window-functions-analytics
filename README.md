@@ -47,8 +47,8 @@ Features:
 ✅ SUM() OVER()  
 ✅ AVG() OVER()  
 ✅ NTILE()  
-⬜ LEAD()  
-⬜ LAG()  
+✅ LEAD()  
+✅ LAG()   
 
 ---
 
@@ -73,6 +73,9 @@ HR-Analytics-Window-Functions/
 │
 ├── Day-4/
 │    └── 01_rank_sick_leaves.sql
+│
+├── Day-5/
+│    └── 01_salary_trend_lag.sql
 │
 └── README.md
 ```
@@ -151,10 +154,33 @@ Leave and overtime patterns help evaluate employee workload balance and potentia
 
 ---
 
+## 🔴 Day 5 – Trend Analysis using LEAD & LAG
+
+### Window Functions Implemented:
+- LEAD()
+- LAG()
+
+### Tasks Completed:
+- Compared salary with previous employee
+- Calculated salary difference between consecutive hires
+- Analyzed overtime and performance trends
+- Detected salary gaps within departments
+
+### Key Insight:
+LEAD and LAG functions enable time-based and sequential trend analysis, helping identify compensation patterns and workload shifts.
+
+---
+
 ## 📈 Project Status
 
 🚀 Day 1 Completed  
 🚀 Day 2 Completed  
 🚀 Day 3 Completed  
 🚀 Day 4 Completed  
+<<<<<<< Updated upstream
 ⏳ Day 5 – LEAD & LAG Trend Analysis in progress
+=======
+🚀 Day 5 Completed  
+
+🎯 All core SQL Window Functions successfully implemented.
+>>>>>>> Stashed changes
