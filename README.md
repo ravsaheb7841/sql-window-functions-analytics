@@ -177,10 +177,6 @@ LEAD and LAG functions enable time-based and sequential trend analysis, helping 
 🚀 Day 2 Completed  
 🚀 Day 3 Completed  
 🚀 Day 4 Completed  
-<<<<<<< Updated upstream
-⏳ Day 5 – LEAD & LAG Trend Analysis in progress
-=======
 🚀 Day 5 Completed  
 
 🎯 All core SQL Window Functions successfully implemented.
->>>>>>> Stashed changes
